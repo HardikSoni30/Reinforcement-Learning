@@ -53,7 +53,7 @@ n-step SARSA is a generalization of the SARSA algorithm that considers multiple 
 
 ## Usage
 
-To demonstrate the usage of these algorithms on the FrozenLake environment, refer to the `frozen_lake_train.ipynb` Jupyter Notebook. This notebook provides a step-by-step guide for training and evaluating the algorithms, including visualizations of the results.
+To demonstrate the usage of these algorithms on the FrozenLake environment, refer to the `frozen_lake_train.py` file. This file provides a step-by-step guide for training and evaluating the algorithms, including visualizations of the results.
 
 ### Running the Notebook
 
@@ -69,16 +69,16 @@ The results for each algorithm, including performance metrics and visualizations
 
 ## Motivation
 
-The motivation for this project is drawn from the [Gymnasium FrozenLake tutorial]([https://www.gymlibrary.com](https://gymnasium.farama.org/tutorials/training_agents/FrozenLake_tuto/#sphx-glr-tutorials-training-agents-frozenlake-tuto-py)/), which provides a foundational understanding of practical implementations. This repository aims to extend that knowledge by implementing several algorithms and evaluating their performance in a controlled environment.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+The motivation for this project is drawn from the [Gymnasium FrozenLake tutorial](https://gymnasium.farama.org/tutorials/training_agents/FrozenLake_tuto/#sphx-glr-tutorials-training-agents-frozenlake-tuto-py/), which provides a foundational understanding of practical implementations. This repository aims to extend that knowledge by implementing several algorithms and evaluating their performance in a controlled environment.
 
 ## Acknowledgments
 
 - OpenAI Gym for the FrozenLake environment.
 - Reinforcement learning literature and resources.
+
+### Books 
+  - Reinforcement Learning: An Introduction by Sutton and Barto, see [pdf](http://incompleteideas.net/book/RLbook2020.pdf)
+  - The Art of Reinforcement Learning by Michael Hu, see [link](https://doi.org/10.1007/978-1-4842-9606-6)
 
 Feel free to explore the code, run experiments, and contribute to improving the algorithms!
 ```
